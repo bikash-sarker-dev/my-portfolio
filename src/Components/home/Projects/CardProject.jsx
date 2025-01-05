@@ -1,25 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const CardProject = () => {
+const CardProject = ({ project }) => {
   return (
-    <div className="card bg-base-100 rounded-none group  shadow-xl">
+    <div className="card bg-base-100 rounded-none group  shadow-xl border">
       <figure className="">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+          src={project?.image1}
           alt="Shoes"
           className="group-hover:scale-125 transition duration-500 "
         />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title">Shoes!</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <h2 className="card-title">{project?.project_title}</h2>
+        <p>{project?.short_description}</p>
         <div className="card-actions mt-6">
-          <button className="btn btn-accent rounded-none">
+          <Link
+            target="_blank"
+            to={project.website_Live_link}
+            className="btn btn-accent rounded-none"
+          >
             View Live Demo
-          </button>
-          <button className="btn btn-accent btn-outline rounded-none">
+          </Link>
+          <Link
+            to={`/details/${project.id}`}
+            className="btn btn-accent btn-outline rounded-none"
+          >
             View More
-          </button>
+          </Link>
         </div>
       </div>
     </div>

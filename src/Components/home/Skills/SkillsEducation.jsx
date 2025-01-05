@@ -5,7 +5,7 @@ import { SiExpress, SiReactrouter } from "react-icons/si";
 
 const SkillsEducation = () => {
   return (
-    <section className="my-32 bg-base-200 py-24">
+    <section id="skills" className="my-32 bg-base-200 py-24">
       <div className="container">
         <div className="text-center mb-10">
           <h2 className="text-5xl font-bold">Skills / Eduction</h2>
