@@ -113,7 +113,7 @@ const Navbar = () => {
           <div className="navbar-end">
             <Link
               target="_blank"
-              to="https://docs.google.com/document/d/1v0LaB_9yfdi8-hh7jf39rW351YK2jRv3isZ4BWMYzyY/edit?usp=sharing"
+              to="https://drive.google.com/file/d/10GbXKQZ6Np8NJck0zTY-GNSURCExZp1-/view?usp=sharing"
               className="btn btn-accent btn-outline"
             >
               Resume Download
