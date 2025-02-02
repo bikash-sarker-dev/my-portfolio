@@ -16,7 +16,7 @@
   animation-name: fadeInDown;
   animation-timing-function: ease-out;
   z-index: 999;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #88f2d9;
 }
 
 .sticky .dark-extra-color {

@@ -5,14 +5,21 @@ import { SiExpress, SiReactrouter } from "react-icons/si";
 
 const SkillsEducation = () => {
   return (
-    <section id="skills" className="my-32 bg-base-200 py-24">
+    <section
+      id="skills"
+      style={{
+        backgroundImage:
+          "url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+      }}
+      className="my-32 bg-p-info py-24 bg-blend-overlay bg-no-repeat bg-cover bg-fixed"
+    >
       <div className="container">
         <div className="text-center mb-10">
           <h2 className="text-5xl font-bold">Skills / Eduction</h2>
         </div>
         <div className="">
           <div>
-            <div className="bg-base-100 p-10">
+            <div className="bg-P-cardColor p-10 rounded-md">
               <div>
                 <div className="divider divider-horizontal"></div>
               </div>
@@ -52,10 +59,10 @@ const SkillsEducation = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-base-100 mt-14 p-10 ">
+            <div className="bg-P-cardColor mt-14 p-10 rounded-xl">
               <div className="flex w-full flex-col lg:flex-row">
                 <div className="card  rounded-box grid  flex-grow place-items-center flex-1  ">
-                  <div className=" bg-base-100 py-8">
+                  <div className="  py-8">
                     <h2 className="text-3xl font-semibold">
                       BSc in Computer Science
                     </h2>
@@ -71,7 +78,7 @@ const SkillsEducation = () => {
                 </div>
                 <div className="divider lg:divider-horizontal divider-accent"></div>
                 <div className="card rounded-box grid  flex-grow place-items-center flex-1">
-                  <div className=" bg-base-100 ">
+                  <div className=" ">
                     <h2 className="text-3xl font-semibold">
                       Diploma in Computer Science
                     </h2>

@@ -67,7 +67,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className={`${scroll ? "sticky w-full bg-blue-50 " : ""}`}>
+    <div
+      className={`${scroll ? "sticky w-full bg-p-info border-p-primary" : ""}`}
+    >
       <div className="container">
         <div className="navbar  py-6">
           <div className="navbar-start">

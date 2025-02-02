@@ -4,16 +4,18 @@ import SocialLinks from "../socialLink/SocialLinks";
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-base-200 min-h-[650px] flex items-center">
+    <section id="home" className="bg-p-default min-h-[650px] flex items-center">
       <div className="container">
         <div className="hero ">
           <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
             <img
               src="https://i.ibb.co.com/10ngYHM/myPic1.jpg"
-              className="max-w-sm border-[10px] w-[350px] h-[350px]   border-teal-300  shadow-2xl shadow-teal-300 rounded-full"
+              className="max-w-sm border-[10px] w-[350px] h-[350px]   border-p-accent  shadow-2xl shadow-p-accent rounded-full"
             />
             <div>
-              <h1 className="text-5xl font-bold">Frontend Developer</h1>
+              <h1 className="text-5xl text-p-text font-bold">
+                Frontend Developer
+              </h1>
               <p className="py-6 max-w-md">
                 I am front-end developer specializes in building engaging and
                 user-friendly web pages, ensuring a seamless user experience and
@@ -22,8 +24,8 @@ const Hero = () => {
               <SocialLinks />
               <Link
                 target="_blank"
-                to="https://docs.google.com/document/d/1v0LaB_9yfdi8-hh7jf39rW351YK2jRv3isZ4BWMYzyY/edit?usp=sharing"
-                className="btn btn-accent btn-outline mt-8"
+                to="https://drive.google.com/file/d/10GbXKQZ6Np8NJck0zTY-GNSURCExZp1-/view?usp=sharing"
+                className="btn bg-p-accent hover:bg-p-primary border-none btn-outline mt-8"
               >
                 Resume Download
               </Link>

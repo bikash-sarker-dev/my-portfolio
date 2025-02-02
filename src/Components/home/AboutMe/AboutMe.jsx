@@ -5,20 +5,20 @@ const AboutMe = () => {
     <section id="about" className="my-32">
       <div className="container">
         <div className="text-center mb-10">
-          <h2 className="text-5xl font-bold">About Me</h2>
+          <h2 className="text-5xl text-p-text font-bold">About Me</h2>
         </div>
 
         <div className="hero ">
           <div className="hero-content flex-col lg:flex-row gap-10">
-            <div className="before:border-l-[12px]  before:border-t-[12px]  before:border-teal-300 before:content-['']  before:w-[180px] before:h-[330px] before:absolute  ">
+            <div className="before:border-l-[12px]  before:border-t-[12px]  before:border-p-accent before:content-['']  before:w-[180px] before:h-[330px] before:absolute  ">
               <img
                 src="https://i.ibb.co.com/bPdD7g0/mtPic2.jpg"
-                className="max-w-md h-[350px]  ml-3 mt-3 shadow-2xl shadow-teal-200"
+                className="max-w-md h-[350px]  ml-3 mt-3 shadow-2xl shadow-p-accent"
               />
             </div>
 
             <div>
-              <h1 className="text-xl font-bold text-teal-400">
+              <h1 className="text-xl font-bold text-p-primary">
                 <span>Who Am I?</span>
               </h1>
               <p className="py-3 leading-7">
