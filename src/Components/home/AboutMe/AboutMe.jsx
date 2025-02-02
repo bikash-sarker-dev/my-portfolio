@@ -12,12 +12,14 @@ const AboutMe = () => {
           <div className="hero-content flex-col lg:flex-row gap-10">
             <div className="before:border-l-[12px]  before:border-t-[12px]  before:border-p-accent before:content-['']  before:w-[180px] before:h-[330px] before:absolute  ">
               <img
+                data-aos="flip-left"
+                data-aos-duration="2000"
                 src="https://i.ibb.co.com/bPdD7g0/mtPic2.jpg"
                 className="max-w-md h-[350px]  ml-3 mt-3 shadow-2xl shadow-p-accent"
               />
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-duration="1000">
               <h1 className="text-xl font-bold text-p-primary">
                 <span>Who Am I?</span>
               </h1>

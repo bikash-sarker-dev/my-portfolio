@@ -19,7 +19,11 @@ const SkillsEducation = () => {
         </div>
         <div className="">
           <div>
-            <div className="bg-P-cardColor p-10 rounded-md">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="bg-P-cardColor p-10 rounded-md"
+            >
               <div>
                 <div className="divider divider-horizontal"></div>
               </div>
@@ -59,7 +63,11 @@ const SkillsEducation = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-P-cardColor mt-14 p-10 rounded-xl">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="bg-P-cardColor mt-14 p-10 rounded-xl"
+            >
               <div className="flex w-full flex-col lg:flex-row">
                 <div className="card  rounded-box grid  flex-grow place-items-center flex-1  ">
                   <div className="  py-8">

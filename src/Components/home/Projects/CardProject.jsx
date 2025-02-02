@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 
 const CardProject = ({ project }) => {
   return (
-    <div className="card bg-P-cardColor rounded-none group  shadow-md shadow-p-info border border-p-info hover:shadow-xl transition-all case-in-out duration-200 hover:shadow-p-info">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="card bg-P-cardColor rounded-none group  shadow-md shadow-p-info border border-p-info hover:shadow-xl transition-all case-in-out duration-200 hover:shadow-p-info"
+    >
       <figure className="">
         <img
           src={project?.image1}

@@ -9,10 +9,12 @@ const Hero = () => {
         <div className="hero ">
           <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
             <img
+              data-aos="zoom-in"
+              data-aos-duration="2000"
               src="https://i.ibb.co.com/10ngYHM/myPic1.jpg"
               className="max-w-sm border-[10px] w-[350px] h-[350px]   border-p-accent  shadow-2xl shadow-p-accent rounded-full"
             />
-            <div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
               <h1 className="text-5xl text-p-text font-bold">
                 Frontend Developer
               </h1>

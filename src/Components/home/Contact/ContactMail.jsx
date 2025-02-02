@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactMail = () => {
   return (
-    <div>
+    <div data-aos="fade-right" data-aos-duration="1000">
       <div className="card  w-full rounded-none  ">
         <form className="card-body">
           <div className="flex gap-5">

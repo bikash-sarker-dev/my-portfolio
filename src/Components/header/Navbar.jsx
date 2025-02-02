@@ -14,7 +14,9 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <Link className="text-p-text font-medium" to="/">
+          Home
+        </Link>
       </li>
       <li>
         <Links
@@ -23,6 +25,7 @@ const Navbar = () => {
           offset={-70}
           duration={500}
           activeClass="active"
+          className="text-p-text font-medium"
           to="about"
         >
           About Me
@@ -36,6 +39,7 @@ const Navbar = () => {
           duration={500}
           activeClass="active"
           to="skills"
+          className="text-p-text font-medium"
         >
           Skills
         </Links>
@@ -48,6 +52,7 @@ const Navbar = () => {
           duration={500}
           activeClass="active"
           to="projects"
+          className="text-p-text font-medium"
         >
           Projects
         </Links>
@@ -60,6 +65,7 @@ const Navbar = () => {
           duration={500}
           activeClass="active"
           to="contact"
+          className="text-p-text font-medium"
         >
           Contact
         </Links>
