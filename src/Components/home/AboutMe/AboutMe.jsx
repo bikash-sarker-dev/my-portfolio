@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="my-32">
+    <section id="about" className="my-32 ">
       <div className="container">
         <div className="text-center mb-10">
           <h2 className="text-5xl text-p-text font-bold">About Me</h2>
@@ -15,7 +15,7 @@ const AboutMe = () => {
                 data-aos="flip-left"
                 data-aos-duration="2000"
                 src="https://i.ibb.co.com/bPdD7g0/mtPic2.jpg"
-                className="max-w-md h-[350px]  ml-3 mt-3 shadow-2xl shadow-p-accent"
+                className="md:max-w-md md:h-[350px]  ml-3 mt-3 shadow-2xl shadow-p-accent"
               />
             </div>
 

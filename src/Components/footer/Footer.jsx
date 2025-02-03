@@ -4,7 +4,7 @@ import SocialLinks from "../socialLink/SocialLinks";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer footer-center bg-p-info text-base-content rounded p-10">
+      <div className="footer footer-center bg-p-info text-base-content rounded p-10 ">
         <nav className="grid grid-flow-col gap-4">
           <a className="link link-hover">Home</a>
           <a className="link link-hover">About Me</a>

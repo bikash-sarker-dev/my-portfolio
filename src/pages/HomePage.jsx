@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import Hero from "../Components/hero/Hero";
+import Header from "../Components/header/Header";
 import AboutMe from "../Components/home/AboutMe/AboutMe";
 import Contacts from "../Components/home/Contact/Contacts";
 import Projects from "../Components/home/Projects/Projects";
@@ -13,7 +13,7 @@ const HomePage = () => {
   }, []);
   return (
     <div>
-      <Hero />
+      <Header />
       <AboutMe />
       <SkillsEducation />
       <Projects />

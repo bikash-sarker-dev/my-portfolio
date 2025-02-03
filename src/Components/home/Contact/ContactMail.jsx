@@ -5,7 +5,7 @@ const ContactMail = () => {
     <div data-aos="fade-right" data-aos-duration="1000">
       <div className="card  w-full rounded-none  ">
         <form className="card-body">
-          <div className="flex gap-5">
+          <div className="lg:flex gap-5">
             <div className="form-control lg:flex-1">
               <label className="label">
                 <span className="label-text font-semibold">User Name</span>

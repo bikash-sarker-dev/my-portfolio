@@ -8,9 +8,9 @@ const ContactAddress = () => {
     <div
       data-aos="fade-left"
       data-aos-duration="1000"
-      className="space-y-14 mt-14 lg:ml-6"
+      className="space-y-14 mt-14 lg:ml-6 hidden lg:block "
     >
-      <div className="flex items-center gap-4">
+      <div className="flex gap-4 ">
         <div className="w-12 h-12 bg-p-accent flex justify-center items-center rounded-sm">
           <IoLocation className="text-2xl  text-white" />
         </div>
@@ -19,7 +19,7 @@ const ContactAddress = () => {
           <p className="text-p-text">Dhaka, Bangladesh</p>
         </div>
       </div>
-      <div className="flex items-center gap-4">
+      <div className="flex gap-4 ">
         <div className="w-12 h-12 bg-p-accent flex justify-center items-center rounded-sm">
           <LuPhoneCall className="text-2xl  text-white" />
         </div>
@@ -28,7 +28,7 @@ const ContactAddress = () => {
           <p className="text-p-text">+8801759061600</p>
         </div>
       </div>
-      <div className="flex items-center gap-4">
+      <div className="flex gap-4">
         <div className="w-12 h-12 bg-p-accent flex justify-center items-center rounded-sm">
           <IoMdMail className="text-2xl  text-white" />
         </div>

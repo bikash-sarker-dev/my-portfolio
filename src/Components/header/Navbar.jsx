@@ -2,19 +2,27 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as Links } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = ({ detailsPage }) => {
   const [scroll, setScroll] = useState(false);
+  const [isNav, setIsNav] = useState(false);
 
+  console.log(isNav);
   useEffect(() => {
+    setIsNav(detailsPage);
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY > 5);
     });
-  });
+  }, [detailsPage]);
 
   const links = (
     <>
       <li>
-        <Link className="text-p-text font-medium" to="/">
+        <Link
+          className={` ${
+            scroll ? "text-p-text" : "text-p-primary"
+          } font-medium`}
+          to="/"
+        >
           Home
         </Link>
       </li>
@@ -25,7 +33,9 @@ const Navbar = () => {
           offset={-70}
           duration={500}
           activeClass="active"
-          className="text-p-text font-medium"
+          className={` ${
+            scroll ? "text-p-text" : "text-p-primary"
+          } font-medium`}
           to="about"
         >
           About Me
@@ -39,7 +49,9 @@ const Navbar = () => {
           duration={500}
           activeClass="active"
           to="skills"
-          className="text-p-text font-medium"
+          className={` ${
+            scroll ? "text-p-text" : "text-p-primary"
+          } font-medium`}
         >
           Skills
         </Links>
@@ -52,7 +64,9 @@ const Navbar = () => {
           duration={500}
           activeClass="active"
           to="projects"
-          className="text-p-text font-medium"
+          className={` ${
+            scroll ? "text-p-text" : "text-p-primary"
+          } font-medium`}
         >
           Projects
         </Links>
@@ -65,7 +79,9 @@ const Navbar = () => {
           duration={500}
           activeClass="active"
           to="contact"
-          className="text-p-text font-medium"
+          className={` ${
+            scroll ? "text-p-text" : "text-p-primary"
+          } font-medium`}
         >
           Contact
         </Links>
@@ -74,7 +90,11 @@ const Navbar = () => {
   );
   return (
     <div
-      className={`${scroll ? "sticky w-full bg-p-info border-p-primary" : ""}`}
+      className={`${
+        scroll
+          ? "sticky w-full bg-p-info border-p-primary"
+          : "border-b border-p-secondary"
+      }  `}
     >
       <div className="container">
         <div className="navbar  py-6">
@@ -83,11 +103,11 @@ const Navbar = () => {
               <div
                 tabIndex={0}
                 role="button"
-                className="btn btn-ghost lg:hidden"
+                className="btn btn-ghost text-p-primary lg:hidden"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-8 w-8"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -107,7 +127,7 @@ const Navbar = () => {
                 {links}
               </ul>
             </div>
-            <div>
+            <div className="hidden sm:block">
               <img
                 className="w-36"
                 src="https://i.ibb.co.com/Qnd1hFd/myLogo.png"
@@ -122,7 +142,7 @@ const Navbar = () => {
             <Link
               target="_blank"
               to="https://drive.google.com/file/d/10GbXKQZ6Np8NJck0zTY-GNSURCExZp1-/view?usp=sharing"
-              className="btn btn-accent btn-outline"
+              className="btn btn-accent btn-outline btn-sm lg:btn-md"
             >
               Resume Download
             </Link>

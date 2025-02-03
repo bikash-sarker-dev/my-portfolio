@@ -12,7 +12,7 @@ const CardProject = ({ project }) => {
         <img
           src={project?.image1}
           alt="Shoes"
-          className="group-hover:scale-125 transition duration-500 "
+          className="group-hover:scale-125 transition duration-500 min-h-60 "
         />
       </figure>
       <div className="card-body items-center text-center">

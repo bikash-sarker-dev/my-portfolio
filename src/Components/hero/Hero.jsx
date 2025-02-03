@@ -4,21 +4,21 @@ import SocialLinks from "../socialLink/SocialLinks";
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-p-default min-h-[650px] flex items-center">
+    <section id="home" className=" min-h-[650px] flex items-center lg:mt-20">
       <div className="container">
         <div className="hero ">
-          <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full">
+          <div className="hero-content flex-col lg:flex-row-reverse justify-between w-full ">
             <img
               data-aos="zoom-in"
               data-aos-duration="2000"
-              src="https://i.ibb.co.com/10ngYHM/myPic1.jpg"
-              className="max-w-sm border-[10px] w-[350px] h-[350px]   border-p-accent  shadow-2xl shadow-p-accent rounded-full"
+              src="https://i.ibb.co.com/025k8X8/my-Pic1-removebg-preview.png"
+              className="max-w-sm border-[10px] w-[250px] h-[250px] md:w-[450px] md:h-[450px] object-cover bg-p-primary  border-p-accent  shadow-2xl shadow-p-accent rounded-full"
             />
             <div data-aos="zoom-in" data-aos-duration="2000">
-              <h1 className="text-5xl text-p-text font-bold">
+              <h1 className="text-5xl text-p-background font-bold">
                 Frontend Developer
               </h1>
-              <p className="py-6 max-w-md">
+              <p className="py-6 max-w-md text-p-default ">
                 I am front-end developer specializes in building engaging and
                 user-friendly web pages, ensuring a seamless user experience and
                 optimal functionality.

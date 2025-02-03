@@ -27,7 +27,7 @@ const SkillsEducation = () => {
               <div>
                 <div className="divider divider-horizontal"></div>
               </div>
-              <ul className="flex gap-16 text-center justify-center items-center">
+              <ul className="flex flex-wrap gap-16 text-center justify-center items-center">
                 <li className=" flex flex-col text-center justify-center items-center">
                   <FaHtml5 className="text-4xl text-orange-500" />
                   <h4 className="text-xl font-semibold">HTML</h4>
