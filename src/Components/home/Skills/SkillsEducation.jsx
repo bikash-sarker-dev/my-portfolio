@@ -11,7 +11,7 @@ const SkillsEducation = () => {
         backgroundImage:
           "url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
       }}
-      className="my-32 bg-p-info py-24 bg-blend-overlay bg-no-repeat bg-cover bg-fixed"
+      className="mb-24 mt-16 bg-p-info py-24 bg-blend-overlay bg-no-repeat bg-cover bg-fixed"
     >
       <div className="container">
         <div className="text-center mb-10">
@@ -78,9 +78,10 @@ const SkillsEducation = () => {
                       Manarat International University (2019 -2023)
                     </h4>
                     <p className=" text-gray-500 ">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Enim quo neque minus? Nulla soluta cupiditate dolorem
-                      nobis enim quasi, officia est saepe nesciunt,
+                      In university life, I have done many programming clubs in
+                      languages ​​and problem solving.I was able to learn from
+                      the language club.When I was talking, I was using c,c++,
+                      java, language.
                     </p>
                   </div>
                 </div>
@@ -94,9 +95,10 @@ const SkillsEducation = () => {
                       Saic Institute of Management and Technology (2014 -2018)
                     </h4>
                     <p className=" text-gray-500 ">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Enim quo neque minus? Nulla soluta cupiditate dolorem
-                      nobis enim quasi, officia est saepe nesciunt,
+                      When I was studying for my diploma, I attended a skill
+                      competition in an organization and won. Here I showcased a
+                      project, the name of which was Cricket Team Player Time
+                      Match System.Here I achieved second place.
                     </p>
                   </div>
                 </div>

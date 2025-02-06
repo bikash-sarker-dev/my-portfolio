@@ -15,13 +15,18 @@ const Hero = () => {
               className="max-w-sm border-[10px] w-[250px] h-[250px] md:w-[450px] md:h-[450px] object-cover bg-p-primary  border-p-accent  shadow-2xl shadow-p-accent rounded-full"
             />
             <div data-aos="zoom-in" data-aos-duration="2000">
-              <h1 className="text-5xl text-p-background font-bold">
-                Frontend Developer
+              <h1 className="text-6xl text-p-background font-bold">
+                MERN Stack Developer
               </h1>
-              <p className="py-6 max-w-md text-p-default ">
-                I am front-end developer specializes in building engaging and
-                user-friendly web pages, ensuring a seamless user experience and
-                optimal functionality.
+              <p className="py-6 max-w-xl text-p-default ">
+                I have been working as a MERN Stack Developer for 3 years and
+                have practical experience. the web application building
+                responsive, user-friendly web applications using HTML5, CSS3,
+                Tailwind CSS, Bootstrap, Javascript, React.js, Next.js, Node.js
+                Express.js, Jwt. UI Tools using Figma, XD Skilled in translating
+                complex requirements into intuitive interfaces, optimizing
+                performance, and delivering pixel-perfect designs,
+                cross-functional teams to deliver high-quality.
               </p>
               <SocialLinks />
               <Link
