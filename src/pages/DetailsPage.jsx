@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Navbar from "../Components/header/Navbar";
 import { projects } from "../pojectData";
@@ -7,6 +7,7 @@ const DetailsPage = () => {
   const { id } = useParams();
   const [details, setDetails] = useState(projects);
   let findProject = details.find((project) => project.id === parseInt(id));
+  console.log(id);
 
   console.log(findProject);
 

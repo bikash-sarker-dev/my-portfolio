@@ -29,13 +29,23 @@ const Hero = () => {
                 cross-functional teams to deliver high-quality.
               </p>
               <SocialLinks />
-              <Link
-                target="_blank"
-                to="https://drive.google.com/file/d/10GbXKQZ6Np8NJck0zTY-GNSURCExZp1-/view?usp=sharing"
-                className="btn bg-p-accent hover:bg-p-primary border-none btn-outline mt-8"
-              >
-                Resume Download
-              </Link>
+              <div className="space-x-4">
+                <Link
+                  target="_blank"
+                  to="https://drive.google.com/file/d/10GbXKQZ6Np8NJck0zTY-GNSURCExZp1-/view?usp=sharing"
+                  className="btn bg-p-accent hover:bg-p-primary border-none btn-outline mt-8"
+                >
+                  View Resume
+                </Link>
+                <Link
+                  target="_blank"
+                  to="./Bikash_sarker_of_MERN_Stack_Developer.pdf"
+                  className="btn btn-accent btn-outline btn-sm lg:btn-md"
+                  download="Bikash_sarker_Resume"
+                >
+                  Resume Download
+                </Link>
+              </div>
             </div>
           </div>
         </div>

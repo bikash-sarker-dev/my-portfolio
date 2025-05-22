@@ -141,8 +141,9 @@ const Navbar = ({ detailsPage }) => {
           <div className="navbar-end">
             <Link
               target="_blank"
-              to="https://drive.google.com/file/d/10GbXKQZ6Np8NJck0zTY-GNSURCExZp1-/view?usp=sharing"
+              to="./Bikash_sarker_of_MERN_Stack_Developer.pdf"
               className="btn btn-accent btn-outline btn-sm lg:btn-md"
+              download="Bikash_sarker_Resume"
             >
               Resume Download
             </Link>
