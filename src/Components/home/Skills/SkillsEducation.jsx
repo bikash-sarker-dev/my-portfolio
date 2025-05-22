@@ -1,4 +1,4 @@
-import React from "react";
+import { BiLogoPostgresql } from "react-icons/bi";
 import {
   FaCcStripe,
   FaCss3Alt,
@@ -12,14 +12,15 @@ import {
 import { FaGalacticRepublic } from "react-icons/fa6";
 import { GiPayMoney } from "react-icons/gi";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiReacthookform } from "react-icons/si";
-
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import {
   SiExpress,
   SiMaterialdesign,
   SiMongodb,
+  SiMongoosedotws,
+  SiReacthookform,
   SiReactrouter,
+  SiTypescript,
 } from "react-icons/si";
 
 const SkillsEducation = () => {
@@ -117,9 +118,24 @@ const SkillsEducation = () => {
                 <li className=" flex flex-col text-center justify-center items-center">
                   <GiPayMoney className="text-4xl text-[#1f529a]" />
                   <h4 className="text-xl font-semibold">
-                    {" "}
                     sslcommerz payment method
                   </h4>
+                </li>
+                <li className=" flex flex-col text-center justify-center items-center">
+                  <SiTypescript className="text-4xl text-[#1f529a]" />
+                  <h4 className="text-xl font-semibold">Typescript</h4>
+                </li>
+                <li className=" flex flex-col text-center justify-center items-center">
+                  <RiNextjsFill className="text-4xl text-[#080b0f]" />
+                  <h4 className="text-xl font-semibold">Next.js</h4>
+                </li>
+                <li className=" flex flex-col text-center justify-center items-center">
+                  <BiLogoPostgresql className="text-4xl text-[#1f529a]" />
+                  <h4 className="text-xl font-semibold">Postgres SQL</h4>
+                </li>
+                <li className=" flex flex-col text-center justify-center items-center">
+                  <SiMongoosedotws className="text-4xl text-[#880C00]" />
+                  <h4 className="text-xl font-semibold">Mongoose</h4>
                 </li>
               </ul>
             </div>
